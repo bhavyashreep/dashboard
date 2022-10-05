@@ -1,0 +1,77 @@
+#dashboard {
+  // min-height: 95vh;
+  margin-left: 250px;
+  margin-top: 94px;
+  padding-right: 24px;
+  padding-bottom: 50px;
+  .statistics {
+    width: 100% !important;
+    border-radius: 12px;
+    margin-bottom: 24px;
+  }
+  // .dottedGraph{
+  //   width: 50%;
+  //   height: 200px;
+
+  // }
+  .followers {
+    width: 30%;
+    margin-bottom: 14px;
+    margin-left: 24px;
+    border-radius: 12px;
+    .chartContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .daily-oveerview {
+    width: 70% !important;
+    border-radius: 12px;
+    margin-bottom: 14px;
+  }
+  .cardContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    
+  }
+  .ringContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title{
+      font-weight: 700;
+      margin-bottom: 8px;
+      margin-top: 4px;
+      font-size: 24px;
+
+    }
+  }
+  .icons{
+    width: 50px;
+    color: blue;
+  }
+  .cardItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+    .value {
+      font-size: 22px;
+      font-weight: 600;
+      padding-top: 5px;
+      margin: 0px;
+    }
+    .label {
+      margin: 0px;
+      color: rgb(134, 142, 174);
+    }
+  }
+}

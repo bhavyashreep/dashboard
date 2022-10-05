@@ -1,0 +1,27 @@
+[
+    { "city": "Jan", "type": "Website", "value": 14500 },
+    { "city": "Jan", "type": "App", "value": 8500 },
+    { "city": "Jan", "type": "Linux", "value": 10000 },
+    { "city": "Jan", "type": "Windows", "value": 7000 },
+    { "city": "Feb", "type": "Website", "value": 9000 },
+    { "city": "Feb", "type": "App", "value": 8500 },
+    { "city": "Feb", "type": "Linux", "value": 11000 },
+    { "city": "Feb", "type": "Windows", "value": 6000 },
+    { "city": "March", "type": "Website", "value": 16000 },
+    { "city": "March", "type": "App", "value": 5000 },
+    { "city": "March", "type": "Linux", "value": 6000 },
+    { "city": "March", "type": "Windows", "value": 10000 },
+    { "city": "April", "type": "Website", "value": 14000 },
+    { "city": "April", "type": "App", "value": 9000 },
+    { "city": "April", "type": "Linux", "value": 10000 },
+    { "city": "April", "type": "Windows", "value": 9000 },
+    { "city": "May", "type": "Website", "value": 14000 },
+    { "city": "May", "type": "App", "value": 9000 },
+    { "city": "May", "type": "Linux", "value": 10000 },
+    { "city": "May", "type": "Windows", "value": 6000 },
+    { "city": "Jun", "type": "Website", "value": 9000 },
+    { "city": "Jun", "type": "App", "value": 8500 },
+    { "city": "Jun", "type": "Linux", "value": 10000 },
+    { "city": "Jun", "type": "Windows", "value": 6000 }
+  
+  ]

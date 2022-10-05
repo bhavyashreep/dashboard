@@ -1,0 +1,69 @@
+#layoutProvider {
+  .header {
+    background-color: white !important;
+    padding: 0 34px !important;
+    height: 74px;
+    img {
+      width: 100px;
+      margin-left: 24px;
+      height: 83px;
+    }
+  }
+  .headerStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .headerIcons {
+      width: 20px;
+      margin-right: 10px;
+      color: grey;
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      .username {
+        margin-right: 10px;
+        font-weight: 500;
+      }
+    }
+  }
+  .ant-menu-item .ant-menu-item-icon,
+  .ant-menu-submenu-title .ant-menu-item-icon,
+  .ant-menu-item .anticon,
+  .ant-menu-submenu-title .anticon {
+    min-width: unset !important;
+  }
+  .anticon svg {
+    color: rgb(173, 180, 210);
+  }
+  .iconStyle {
+    width: 20px;
+    height: 20px;
+    color: rgb(173, 180, 210);
+    margin-right: 8px;
+  }
+  a {
+    color: #272b41;
+  }
+  .sideBar {
+    background-color: white !important;
+    .ant-menu-vertical .ant-menu-item,
+    .ant-menu-vertical-left .ant-menu-item,
+    .ant-menu-vertical-right .ant-menu-item,
+    .ant-menu-inline .ant-menu-item {
+      display: flex;
+    }
+    .ant-menu-item .ant-menu-item-icon,
+    .ant-menu-submenu-title .ant-menu-item-icon,
+    .ant-menu-item .anticon,
+    .ant-menu-submenu-title .anticon {
+      display: flex;
+      align-items: center;
+    }
+    .ant-menu-inline,
+    .ant-menu-vertical,
+    .ant-menu-vertical-left {
+      border-right: none;
+    }
+  }
+}
